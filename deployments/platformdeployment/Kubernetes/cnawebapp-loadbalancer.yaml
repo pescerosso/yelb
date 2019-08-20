@@ -79,7 +79,7 @@ spec:
         - containerPort: 80
 ---
 apiVersion: extensions/v1beta1
-kind: Deployment
+kind: statefulset
 metadata:
   name: redis-server
 spec:
